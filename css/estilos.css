@@ -1,0 +1,54 @@
+body {
+    background-image: url(https://www.cinemascomics.com/wp-content/uploads/2020/09/batman-1939-original.jpg);
+    background-size: cover;
+}
+
+img{
+    width: 400px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.pt-10{
+    padding-top: 20px;
+}
+
+/* 
+    Aplicando PSEUDO-Clases
+*/
+
+#difuminado:checked ~ div > img {
+    filter: blur(10px);
+}
+#sepia:checked ~ div > img {
+    filter: sepia(0.8);
+}
+#brillo:checked ~ div > img {
+    filter: brightness(.8);
+}
+
+#opacidad:checked ~ div > img {
+    filter: opacity(.8);
+}
+
+#composicion-1:checked ~ div > img {
+    filter:  blur(10px) sepia(0.8);
+}
+
+#agrandar:checked ~ div > img {
+    transform: scale(1.2);
+}
+
+
+#saturar:checked ~ div > img {
+    filter: saturate(0.4);
+}
+
+
+
+
+
+

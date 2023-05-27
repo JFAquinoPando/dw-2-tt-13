@@ -1,0 +1,70 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+section{
+    width: 600px;
+}
+
+.video {
+	width: 100%;
+	position: absolute;
+}
+
+video {
+	width: 600px;
+	position: relative;
+}
+
+.texto2 {
+	text-transform: uppercase;
+	font-size: 180px;
+	position: relative;
+	right: 587px;
+	bottom: 85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.paisaje{
+    text-align: center;
+    height: 100vh;
+}
+
+.texto{
+    font-size: 150px;
+    font-weight: 700;
+    color: transparent;
+    /* color: black; */
+    background-image: url(./../paisaje.jpg);
+    background-size: cover;
+    background-clip: text;
+
+}
+
+/* .texto {
+	font-size: 197px;
+	font-weight: 700;
+	color: transparent;
+	background-image: linear-gradient(to top, #7d0000, teal);
+	background-size: 100%;
+	background-clip: text;
+	background-repeat: no-repeat;
+} */
