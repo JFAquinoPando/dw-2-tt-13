@@ -25,3 +25,22 @@ video{
     width: 500px;
     aspect-ratio: 16/9;
 }
+
+
+
+header {
+	background: rgba(100,225,225,0.7);
+	padding: 30px;
+}
+
+nav {
+	display: flex;
+	gap: 54px;
+}
+
+nav a {
+	display: block;
+	font-size: 32px;
+	color: black;
+	text-transform: uppercase;
+}
